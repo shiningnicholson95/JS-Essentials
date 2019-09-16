@@ -22,9 +22,12 @@ console.log(true?1:2)
 // console.log('five'*2);//NaN
 // console.log(false==0);//true
 
-console.log(null == undefined)
-console.log(null == 0)
+console.log(null == undefined);
+console.log(null == 0);
 // so null is undefined and not 0 as is evident from above.
 
 console.log(null || 'user'); // null is a false value, || operator sends back true value, in this case 'user'.
 console.log(null && user); // null is false value, && returns false value, in this case null.
+
+
+
